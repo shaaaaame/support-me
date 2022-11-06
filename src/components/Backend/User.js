@@ -1,7 +1,4 @@
-import {userSignIn, userSignUp, isExistUser, getUserNum, findUsers, findUserById, findUsersByTags, 
-    sortTutorByRating, updateUser, getCourseNum, findCourseById, findCoursesByUserId, updateCourse, 
-    postTutorOder, getTutorOrder, createTutorRequest, sendTutorRequest, acceptCourse, rejectCourse, 
-    finishedCourse, rating} from './Database.js'
+import {userSignIn, findUsers, postTutorOder, createTutorRequest, rating} from './Database.js'
 
 
 class User {
@@ -64,5 +61,3 @@ class User {
 
 
 const user = new User();
-
-export {user};
