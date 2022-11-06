@@ -43,3 +43,12 @@
     height: 4em;
     font-size: 20px;
 }
+
+.over-box{
+    display: flex;
+    justify-content: center;
+}
+
+.over-box-img{
+    width: 70%;
+}

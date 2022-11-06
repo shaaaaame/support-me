@@ -1,0 +1,18 @@
+.question-description{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--clr-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-description-box{
+    background-color: white;
+    margin: 3em 0;
+    border-radius: 40px;
+    width: 70%;
+    height: 40%;
+    padding: 2em;
+}

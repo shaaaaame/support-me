@@ -13,6 +13,7 @@ import Support from '../Support/Support';
 import Terms from '../Terms/Terms';
 import QuestionAsked from '../Question/QuestionAsked/QuestionAsked';
 import QuestionDescription from '../Question/QuestionDescription/QuestionDescription';
+import Profile from '../ProfileView/Profile';
 
 function AnimatedRoutes() {
     const location = useLocation();
@@ -30,6 +31,7 @@ function AnimatedRoutes() {
                 <Route path='/terms' element={<Terms />}></Route>
                 <Route path='/question-asked' element={<QuestionAsked />}></Route>
                 <Route path='/question-description' element={<QuestionDescription />}></Route>
+                <Route path='/profile' element={<Profile/>}></Route>
             </Routes>
         </AnimatePresence>
 

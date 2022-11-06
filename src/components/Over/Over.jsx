@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import FeatherIcon from 'feather-icons-react';
 import { TextField } from '@mui/material';
+import word from '../../assets/words.png';
 
 import './Over.css';
 
@@ -15,10 +16,10 @@ function Over() {
         <div className='over'>
             <h1 className='over-title'>support is <b>here.</b></h1>
             <div className='over-container'>
-                <FeatherIcon className='over-search-icon' icon='search'/>
-                <TextField className='over-fill' label="enter course name: " variant="filled" multiline={true} minRows={5} onChange={(e) => setSearch(e.target.value)}/>
+                <div className='over-box'>
+                    <img src={word} alt='words' className='over-box-img'/>
+                </div>
             </div>
-            <button className='over-submit' onClick={() => SendSearch(search)}>search</button>
         </div>
     )
 }
