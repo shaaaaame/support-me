@@ -1,0 +1,13 @@
+.landing-text{
+	width: 40%;
+}
+
+.landing-text-body b{
+	color: var(--clr-h1);
+}
+
+.landing-text-btn:hover{
+	cursor: pointer;
+}
+
+

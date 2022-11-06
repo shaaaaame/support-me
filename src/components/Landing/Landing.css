@@ -1,0 +1,65 @@
+.landing{
+    width: 100%;
+    background-color: var(--clr-light);
+    overflow: hidden;
+    margin: 0;
+}
+
+.landing-hero{
+    height: 90vh;
+    overflow: hidden;
+    padding: 1em 2em;
+}
+
+.landing-text{
+    position: relative;
+    top: 50%;
+}
+
+.landing-img{
+    position: absolute;
+    width: 45%;
+    bottom: -220px;
+    right: 50px;
+    z-index: inherit;
+}
+
+.landing-goal{
+    height: 100vh;
+    background-color: var(--clr-h1);
+    position: relative;
+    padding: 1em 2em;
+    overflow:visible;
+}
+
+.landing-goal-text{
+    position: absolute;
+    height: 20%;
+    width: 40%;
+    right: 10%;
+    text-align: right;
+    top: 40%;
+}
+
+.landing-goal-img{
+    position: absolute;
+    width: 40%;
+    bottom: -140px;
+}
+
+.landing-bottom{
+    margin-top: 150px;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.landing-bottom-title{
+    font-size: 100px;
+}

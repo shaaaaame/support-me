@@ -1,0 +1,48 @@
+.landing-nav{
+    height: 5em;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.landing-nav-logo{
+    text-decoration: none;
+    color: var(--clr-dark);
+    transition: color 0.3s;
+    font-weight: 900;
+}
+
+.landing-nav-container{
+    display: flex;
+}
+
+.landing-nav-logo:hover{
+    color: var(--clr-h2);
+}
+
+.landing-nav-btn{
+    width: 7em;
+    height: 3em;
+    margin: 0 1em;
+    text-align: center;
+    line-height: 3em;
+    text-decoration: none;
+    color: var(--clr-dark);
+    transition: color 0.3s;
+}
+
+.landing-nav-btn:hover{
+    cursor: pointer;
+    color: var(--clr-h2)
+}
+
+.landing-nav-join{
+    outline: 2px solid var(--clr-dark);
+    border-radius: 10px;
+    transition: outline 0.1s;
+}
+
+.landing-nav-join:hover{
+    outline:2px solid var(--clr-h2);
+}
