@@ -19,10 +19,10 @@
   --clr-h2: #3f6d9e;
 
   /* fonts */
-  --fs-h1: 30px;
-  --fs-h2: 20px;
-  --fs-h3: 15px;
-  --fs-body: 10px;
+  --fs-h1: 35px;
+  --fs-h2: 25px;
+  --fs-h3: 20px;
+  --fs-body: 15px;
 
   font-family: "iAWriter";
 
@@ -51,6 +51,7 @@ body {
 }
 
 p{
+  font-size: var(--fs-body);
   color: var(--clr-dark);
 }
 

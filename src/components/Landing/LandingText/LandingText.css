@@ -1,5 +1,17 @@
 .landing-text{
 	width: 40%;
+	height: 30%;
+	justify-content: space-evenly;
+	display: flex;
+	flex-direction: column;
+}
+
+.landing-text-title{
+	font-size: 35px;
+}
+
+.landing-text-body{
+	font-size: 20px;
 }
 
 .landing-text-body b{

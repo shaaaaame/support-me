@@ -1,0 +1,70 @@
+.landing-signin-popup{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.landing-signin-exit{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 2em;
+    height: 2em;
+}
+
+.landing-signin-exit:hover{
+    cursor: pointer;
+}
+
+.landing-signin-cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    background-color: black;
+    opacity: 30%;
+    z-index: 3;
+}
+
+.landing-signin-box{
+    position: relative;
+    z-index: 4;
+    width: 25%;
+    height: 60%;
+    background-color: var(--clr-light);
+    opacity: 1;
+    border-radius: 10px;
+    outline: 2px solid var(--clr-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.landing-signin-container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.landing-signin-popup-label{
+    width: 100%;
+    text-align: left;
+}
+
+.landing-signin-popup-fill{
+    width: 100%;
+}
+
+.landing-signin-popup-submit:hover{
+    cursor: pointer;
+
+}
