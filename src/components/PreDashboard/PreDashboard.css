@@ -1,0 +1,40 @@
+.predashboard{
+    background-color: var(--clr-light);
+    display: flex;
+    flex-direction: column;
+    padding: 5em 17em;
+}
+
+.predashboard-container-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.predashboard-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.predashboard-title{
+    margin: 5vh 0;
+    text-align: center;
+}
+
+.predashboard-btn{
+    width: 20em;
+    height: 4em;
+    background-color: transparent;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: var(--clr-dark);
+    text-align: center;
+    line-height: 4em;
+    border-radius: 10px;
+}
+
+.predashboard-btn:hover{
+    background-color: var(--clr-h1);
+}
