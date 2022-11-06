@@ -11,6 +11,8 @@ import Study from '../Study/Study';
 import Over from '../Over/Over'
 import Support from '../Support/Support';
 import Terms from '../Terms/Terms';
+import QuestionAsked from '../Question/QuestionAsked/QuestionAsked';
+import QuestionDescription from '../Question/QuestionDescription/QuestionDescription';
 
 function AnimatedRoutes() {
     const location = useLocation();
@@ -26,6 +28,8 @@ function AnimatedRoutes() {
                 <Route path='/over' element={<Over />}></Route>
                 <Route path='/support' element={<Support />}></Route>
                 <Route path='/terms' element={<Terms />}></Route>
+                <Route path='/question-asked' element={<QuestionAsked />}></Route>
+                <Route path='/question-description' element={<QuestionDescription />}></Route>
             </Routes>
         </AnimatePresence>
 

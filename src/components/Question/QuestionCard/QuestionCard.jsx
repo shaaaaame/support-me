@@ -1,12 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 import './QuestionCard.css';
 
 function QuestionCard(props) {
+  const navigate = useNavigate()
+
   return (
-    <Link to={props.loc} className='question-card'>
-        <h3 className='question-card-title'>{props.title}</h3>
-    </Link>
+    <button className='question-card' onClick={navigate('./question-description')}>
+        <p>{props.title}</p>
+    </button>
   )
 }
 
