@@ -1,8 +1,8 @@
-import {Client, Account, ID, Databases, Query} from 'appwrite'
+// import {Client, Account, ID, Databases, Query} from 'appwrite'
 
 
-const client = new Client().setEndpoint('http://localhost/v1').setProject('SupportMe');
-const account = new Account(client);
+// const client = new Client().setEndpoint('http://localhost/v1').setProject('SupportMe');
+// const account = new Account(client);
 
 
 // account.create(
@@ -17,7 +17,7 @@ const account = new Account(client);
 // });
 
 
-const databases = new Databases(client);
+// const databases = new Databases(client);
 
 
 // create data
