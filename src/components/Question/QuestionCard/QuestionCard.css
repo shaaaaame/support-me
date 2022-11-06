@@ -1,0 +1,18 @@
+.question-card{
+    width: 15%;
+    height: 70%;
+    outline: 2px solid var(--clr-dark);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.question-card-title{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--clr-dark);
+    text-align: center;
+}

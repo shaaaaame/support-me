@@ -28,6 +28,11 @@
     height: 4em;
     background-color: transparent;
     transition: background-color 0.3s;
+    text-decoration: none;
+    color: var(--clr-dark);
+    text-align: center;
+    line-height: 4em;
+    border-radius: 10px;
 }
 
 .predashboard-btn:hover{
