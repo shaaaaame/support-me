@@ -1,12 +1,15 @@
 import React, {useState} from 'react'
 import FeatherIcon from 'feather-icons-react/build/FeatherIcon';
+import { useNavigate } from 'react-router-dom';
+
 import './LandingSignInPopup.css';
-import {login} from '../../../Database.js'
+import login from '../../../Database.js'
 
 
 function LandingSignInPopup(props) {
 	const [mail, setMail] = useState('');
 	const [pass, setPass] = useState('');
+	let navigate = useNavigate();
 
 	const handleMailChange = (e) => {
 		setMail(e.target.value);
@@ -17,7 +20,13 @@ function LandingSignInPopup(props) {
 	}		
 
 	const handleSubmit = async (e) => {
-		console.log("request if data valid: " + mail + ' ' + pass) //request validation from andy
+		console.log("request if data valid: " + mail + ' ' + pass) 
+		const valid = await login([mail, pass]);
+		
+		if (valid){
+			navigate('/predashboard', {replace: true});
+		}
+		
 	}
 
 	return (

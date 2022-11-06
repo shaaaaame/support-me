@@ -72,6 +72,10 @@ button {
   border-radius: 10px !important;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 720px) {
   *{
