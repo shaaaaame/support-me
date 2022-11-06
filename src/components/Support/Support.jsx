@@ -3,9 +3,8 @@ import SupportCard from './SupportCard/SupportCard'
 import './Support.css'
 import { System } from '../Backend/System';
 
-let questions = await System.showQuestions();
 
-function Support() {
+ function Support() {
   return (
     <div className='support'>
         <h1 className='support-title'>thanks for <b>supporting!</b></h1>
