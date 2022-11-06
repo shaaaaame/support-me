@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import FeatherIcon from 'feather-icons-react/build/FeatherIcon';
 import './LandingSignInPopup.css';
+import {login} from '../../../Database.js'
 
 
 function LandingSignInPopup(props) {
@@ -15,7 +16,7 @@ function LandingSignInPopup(props) {
 		setPass(e.target.value);
 	}		
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		console.log("request if data valid: " + mail + ' ' + pass) //request validation from andy
 	}
 
