@@ -6,6 +6,7 @@ import './Question.css';
 
 function SendQuestion(question){
     // send question to database
+    // need a subject & description
     console.log(question);
 }
 
