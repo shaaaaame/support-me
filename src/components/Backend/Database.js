@@ -275,24 +275,6 @@ async function rating(type, cid, rate) {
 }
 
 
-export function userSignUp();
-export function userSignIn();
-export function isExistUser();
-export function getUsersNum();
-export function findUsers();
-export function findUserById();
-export function findUsersByTags();
-export function sortTutorByRating();
-export function updateUser();
-export function getCourseNum();
-export function findCourseById();
-export function findCoursesByUserId();
-export function updateCourse();
-export function postTutorOder();
-export function getTutorOrder();
-export function createTutorRequest();
-export function sendTutorRequest();
-export function acceptCourse();
-export function rejectCourse();
-export function finishedCourse();
-export function rating();
+export {userSignIn, userSignUp, isExistUser, getUserNum, findUsers, findUserById, findUsersByTags, sortTutorByRating, 
+    updateUser, getCourseNum, findCourseById, findCoursesByUserId, updateCourse, postTutorOder, getTutorOrder, 
+    createTutorRequest, sendTutorRequest, acceptCourse, rejectCourse, finishedCourse, rating};
