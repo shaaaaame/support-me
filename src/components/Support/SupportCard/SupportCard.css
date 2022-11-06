@@ -1,4 +1,5 @@
 .support-card{
     width: 80%;
     height: 15%;
+    text-overflow: ellipsis;
 }
