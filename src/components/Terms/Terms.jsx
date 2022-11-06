@@ -19,7 +19,7 @@ function Terms() {
                     <Checkbox />
                     <p className='terms-check-text'>i have read the terms and conditions.</p>
                 </div>
-                <button className='terms-check-btn' onClick={() => navigate('/over')}>i agree</button>
+                <button className='terms-check-btn' onClick={() => navigate('/question-asked')}>i agree</button>
             </div>
         </div>
     )

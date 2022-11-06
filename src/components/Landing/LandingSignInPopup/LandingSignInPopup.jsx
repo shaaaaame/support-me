@@ -3,7 +3,7 @@ import FeatherIcon from 'feather-icons-react/build/FeatherIcon';
 import { useNavigate } from 'react-router-dom';
 
 import './LandingSignInPopup.css';
-import {user}  from '../../Backend/User.js'
+import { user }  from '../../Backend/User.js'
 
 
 function LandingSignInPopup(props) {
@@ -21,7 +21,7 @@ function LandingSignInPopup(props) {
 
 	const handleSubmit = async (e) => {
 		console.log("request if data valid: " + mail + ' ' + pass) 
-		const valid = await user.login(mail, pass);
+		const valid = await login([mail, pass]);
 		
 		if (valid){
 			navigate('/predashboard', {replace: true});
