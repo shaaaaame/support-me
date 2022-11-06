@@ -21,7 +21,7 @@ function LandingSignInPopup(props) {
 
 	const handleSubmit = async (e) => {
 		console.log("request if data valid: " + mail + ' ' + pass) 
-		const valid = await user.login(mail, pass);
+		const valid = await login([mail, pass]);
 		
 		if (valid){
 			navigate('/predashboard', {replace: true});

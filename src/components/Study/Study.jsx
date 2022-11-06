@@ -3,10 +3,11 @@ import FeatherIcon from 'feather-icons-react';
 import { TextField } from '@mui/material';
 
 import './Study.css';
+import {System} from "../Backend/System.js";
 
-function SendSearch(search){
+async function SendSearch(search){
     console.log(search); // send search to database
-    
+    let result = await System.showTutors(search);
 }
 
 function Study() {

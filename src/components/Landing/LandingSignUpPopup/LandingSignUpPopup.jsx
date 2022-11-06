@@ -23,6 +23,7 @@ function LandingSignUpPopup(props) {
 		if (CheckValidEmail(mail)){
 			setValid(true)
 			console.log("send data: " + mail + ' ' + pass) //send data to andy
+			// more data needed
 		}else{
 			setValid(false);
 		}
